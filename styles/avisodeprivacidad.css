@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Reggae+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.header{
+    display: flex;
+}
+
+.imagenesacercate{
+    background-color: rgb(165, 160, 160);
+    border: 6px solid grey;
+    font-family: 'Reggae One', cursive;
+    font-size: 22px;
+    font-weight: bold;
+    padding: .5%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.Acercate{
+    display: flex;
+}
+
+.logo1{
+    font-size: 160%;
+    margin-left: -2%;
+    margin-top: -.3%;
+    
+}
+
+.logo2{
+    font-size: 160%;
+    margin-left: -1%;
+    margin-top: -.3%;
+}
+
+.logo3{
+    font-size: 180%;
+    margin-left: -1%;
+    margin-top: -.4%;
+}
+
+
+.cabeceraacercate{
+    margin-top: .5%;
+    margin-left: 4%;
+    margin-right: 3%;
+}
+
+.txttel1{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.txttel2{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.txtcorreo{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.user{
+    font-size: 150%;
+    margin-left: -1%;
+}
+
+.monedero{
+    font-size: 160%;
+    margin-left: 2%;
+    margin-top: -.3%;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.tituloaviso{
+    font-family: 'Reggae One', cursive;
+    font-size: 32px;
+    font-weight: 300px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.txtaviso{
+    font-family: 'Reggae One', cursive;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: justify;
+    margin-top: -1%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+
+form{
+    display: flex;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.aviso{
+    font-family: 'Reggae One', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.boton{
+    width: 40px;
+    height: 40px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 35%;
+}
+
+.enviar{
+    background-color: rgb(180, 176, 176);
+    border: 6px solid rgb(124, 121, 121);
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 2%;
+    margin-top: 6%;
+    margin-left: -20%;
+    margin-bottom: 3%;
+    transition: all ease 300ms;
+}
+
+.enviar:hover{
+    background-color: rgb(0, 255, 255);
+    border: 6px solid rgb(72, 209, 204)
+}

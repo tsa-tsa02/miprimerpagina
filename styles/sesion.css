@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Reggae+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.header{
+    display: flex;
+}
+
+.imagenesacercate{
+    background-color: rgb(165, 160, 160);
+    border: 6px solid grey;
+    font-family: 'Reggae One', cursive;
+    font-size: 22px;
+    font-weight: bold;
+    padding: .5%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.Acercate{
+    display: flex;
+}
+
+.logo1{
+    font-size: 160%;
+    margin-left: -2%;
+    margin-top: -.3%;
+    
+}
+
+.logo2{
+    font-size: 160%;
+    margin-left: -1%;
+    margin-top: -.3%;
+}
+
+.logo3{
+    font-size: 180%;
+    margin-left: -1%;
+    margin-top: -.4%;
+}
+
+
+.cabeceraacercate{
+    margin-top: .5%;
+    margin-left: 4%;
+    margin-right: 3%;
+}
+
+.txttel1{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.txttel2{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.txtcorreo{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.user{
+    font-size: 150%;
+    margin-left: -1%;
+}
+
+.monedero{
+    font-size: 160%;
+    margin-left: 2%;
+    margin-top: -.3%;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+form{
+    background-color: rgba(202, 196, 196, 0.2);
+    width: 700px;
+    height: 515px;
+    border-radius: 5%;
+    padding: 1%;
+    margin-left: 25%;
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+
+.logo{
+    display: flex;
+    height: 210px;
+    width: 235px;
+    border-radius: 50%;
+    border: 4px solid grey;
+    margin-left: 34%;
+    margin-top: -14%;
+    margin-bottom: 5%;
+    padding: .5%;
+}
+
+.iniciosesion{
+    font-family: 'Reggae One', cursive;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 24%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.e-mail{
+    font-family: 'Reggae One', cursive;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    border: none;
+    width: 410px;
+    margin-left: 22%;
+    border-bottom: 3px solid gray;
+    margin-top: 2%;
+    outline: none;
+    background: none;
+}
+
+
+.contraseña{
+    font-family: 'Reggae One', cursive;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    border: none;
+    background: none;
+    width: 410px;
+    margin-left: 22%;
+    border-bottom: 3px solid gray;
+    margin-top: 5%;
+    outline: none;
+
+}
+
+.olvidaste{
+    font-family: 'Reggae One', cursive;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 1%;
+    margin-left: 24%;
+    text-decoration: underline;
+}
+
+
+.botonaviso{
+    display: flex;
+}
+
+.boton{
+    height: 30px;
+    width: 25px;
+    margin-left: 24%;
+    margin-right: .5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.aviso{
+    font-family: 'Reggae One', cursive;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 2.2%;
+}
+
+.enviar{
+    height: 80px;
+    width: 400px;
+    font-family: 'Reggae One', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid gray;
+    border: 3px solid rgb(124, 121, 121);
+    margin-left: 23%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    transition: all ease 300ms;
+}
+
+.enviar:hover{
+    background-color:  rgb(0, 255, 255);
+    border: 3px solid rgb(72, 209, 204)
+}
+

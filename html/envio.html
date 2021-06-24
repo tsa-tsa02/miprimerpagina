@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quinto Sol-Dirección de Envío</title>
+    <link rel="stylesheet" href="../styles/envio.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="imagenesacercate"> <!--Aquí empieza mi primer caja Acércate-->
+
+                <div class="Acercate">
+
+                        <a class="cabeceraacercate" href="../html/nosotros.html">Acércate a nosotros....</a>
+
+                        <p class="logo1">&#128222</p>
+
+                        <p class="txttel1">55-30-44-08-15</p>
+
+                        <p class="logo2">&#128222</p>
+
+                        <p class="txttel2">55-31-93-03-42</p>
+
+                        <p class="logo3">&#9993</p>
+
+                        <p class="txtcorreo">cipactlitecuhtli@gmail.com</p>
+
+                        <a class="user" href="../html/sesion.html">&#128100</a>
+
+                        <a class="monedero" href="../html/envio.html">&#127980</a>
+
+                </div>
+
+        </div>  <!--Aquí termina mi primer caja Acércate-->
+
+</header>
+
+
+
+
+
+
+
+
+            <form>
+
+                    <p class="direnvio">Dirección de envío</p>
+
+                    <p class="txtfecha">Fecha de Solicitud</p> 
+
+                <div>
+
+                    <input class="fechadia" id="txtfecha" type="date" placeholder="Fecha" min="0" max="100" required />
+                </div>
+
+            <div class="nombreapellidos">
+
+                <input  class="nombre" id="txtnombre" type="nombre" placeholder="&#128100 Nombre" min="0" max="100" required />
+
+                <input class="apellidopaterno" id="txtapellidopaterno" type="apellidopaterno" placeholder="&#128100 Apellido Paterno" min="0" max="100" required/>
+
+                <input class="apellidomaterno" id="txtapellidomaterno" type="apellidomaterno" placeholder="&#128100 Apellido Materno" min="0" max="100" required/>
+
+            </div>
+
+            <div>
+
+                <input class="email" id="txtemail" type="email" placeholder="&#9993 E-mail" min="0" max="100" required/>
+
+                <input class="telefono" id="txtteléfono" type="tel" placeholder="&#128222 Teléfono/WhatsApp" min="0" max="100" required pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" />
+
+            </div>
+
+            <div class="cyn1">
+
+                <input class="calleynumero" id="txtcalleynumero" type="calleynumero" placeholder="&#128204 Calle y Número" min="0" max="100" required/>
+
+            </div>
+
+            <div class="c2">
+
+                <input class="colonia" id="txtcolonia" type="colonia" placeholder="Colonia" min="0" max="100" required/>
+
+                <input class="cp" id="txtcp" type="cp" placeholder="&#128235 Código Postal" min="0" max="100" required/>
+
+            </div>
+
+            <div class="entre3">
+
+                <input class="entrecalles" id="txtentrecalles" type="entrecalles" placeholder="Entre calles o referencias (opcional)" min="0" max="100"/>
+
+            </div>
+
+            <div class="estadosydelegaciones">
+
+
+                <select class="estadosmex">
+
+                    <option>Estados</option>
+
+                    <option>Aguascalientes</option>
+
+                    <option>Baja California</option>
+
+                    <option>Baja California Sur</option>
+
+                    <option>Campeche</option>
+
+                    <option>CDMX</option>
+
+                    <option>Chiapas</option>
+
+                    <option>Chihuahua</option>
+
+                    <option>Coahuila</option>
+
+                    <option>Colima</option>
+
+                    <option>Durango</option>
+
+                    <option>Estado de México</option>
+
+                    <option>Guanajuato</option>
+
+                    <option>Guerrero</option>
+
+                    <option>Hidalgo</option>
+
+                    <option>Jalisco</option>
+
+                    <option>Michoacán</option>
+
+                    <option>Morelos</option>
+
+                    <option>Nayarit</option>
+
+                    <option>Nuevo León</option>
+
+                    <option>Oaxaca</option>
+
+                    <option>Puebla</option>
+
+                    <option>Querétaro</option>
+
+                    <option>Quintana Roo</option>
+
+                    <option>San Luis Potosí</option>
+
+                    <option>Sinaloa</option>
+
+                    <option>Sonora</option>
+
+                    <option>Tabasco</option>
+
+                    <option>Tamaulipas</option>
+
+                    <option>Tlaxcala</option>
+
+                    <option>Veracruz</option>
+
+                    <option>Yucatán</option>
+
+                    <option>Zacatecas</option>
+
+                </select>
+
+
+                <select class="alcaldiascdmx">
+
+                    <option>Municipios y/o Alcaldías</option>
+
+                    <option>Álvaro Obregón</option>
+
+                    <option>Azcapotzalco</option>
+
+                    <option>Benito Juárez</option>
+
+                    <option>Coyoacán</option>
+
+                    <option>Cuajimalpa</option>
+
+                    <option>Cuauhtémoc</option>
+
+                    <option>Gustavo A. Madero</option>
+
+                    <option>Iztacalco</option>
+
+                    <option>Iztapalapa</option>
+
+                    <option>Magdalena Contreras</option>
+
+                    <option>Miguel Hidalgo</option>
+
+                    <option>Milpa Alta</option>
+
+                    <option>Tláhuac</option>
+
+                    <option>Tlalpan</option>
+
+                    <option>Venustiano Carranza</option>
+
+                    <option>Xochimilco</option>
+
+
+                </select>
+
+                <p class="promocion">¿Quiero recibir más información de nuestras promociones?</p>
+
+            <div class="botonsino">
+
+                <input class="si" type="radio" name="txt">
+
+                <p class="botonsi" >SI</p>
+
+                <input class="no" type="radio" name="txt">
+
+                <p class="botonno">NO</p>
+
+            </div>
+
+            <div class="botoncarrito">
+
+                <button class="enviar" type="submit"><a href=""></a> Continuar con la compra</button>
+
+                <p class="carrito">Volver al carrito</p>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Reggae+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.header{
+    display: flex;
+}
+
+.imagenesacercate{
+    background-color: rgb(165, 160, 160);
+    border: 6px solid grey;
+    font-family: 'Reggae One', cursive;
+    font-size: 22px;
+    font-weight: bold;
+    padding: .5%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.Acercate{
+    display: flex;
+}
+
+.logo1{
+    font-size: 160%;
+    margin-left: -2%;
+    margin-top: -.3%;
+    
+}
+
+.logo2{
+    font-size: 160%;
+    margin-left: -1%;
+    margin-top: -.3%;
+}
+
+.logo3{
+    font-size: 180%;
+    margin-left: -1%;
+    margin-top: -.4%;
+}
+
+
+.cabeceraacercate{
+    margin-top: .5%;
+    margin-left: 4%;
+    margin-right: 3%;
+}
+
+.txttel1{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.txttel2{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.txtcorreo{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.user{
+    font-size: 150%;
+    margin-left: -1%;
+}
+
+.monedero{
+    font-size: 160%;
+    margin-left: 2%;
+    margin-top: -.3%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.iniciovideos{
+    text-align: center;
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+.videos{
+    display: flex;
+    margin-top: 5%;
+}
+
+.videocorte{
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 6px solid rgb(52, 54, 52);
+    border-radius: 5%;
+    width: 500px;
+    height: 500px;
+}
+
+.videomontaje{
+    margin-left: 15%;
+    margin-right: 5%;
+    border: 6px solid rgb(52, 54, 52);
+    border-radius: 5%;
+    width: 500px;
+    height: 500px;
+}
+
+.txtvideos{
+    display: flex;
+}
+
+.txtcortepieza{
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-bottom: 2%;
+}
+
+.txtmontajecinta{
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 43%;
+    margin-bottom: 2%;
+}

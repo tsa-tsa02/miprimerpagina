@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Reggae+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.header{
+    display: flex;
+}
+
+.imagenesacercate{
+    background-color: rgb(165, 160, 160);
+    border: 6px solid grey;
+    font-family: 'Reggae One', cursive;
+    font-size: 22px;
+    font-weight: bold;
+    padding: .5%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.Acercate{
+    display: flex;
+}
+
+.logo1{
+    font-size: 160%;
+    margin-left: -2%;
+    margin-top: -.3%;
+    
+}
+
+.logo2{
+    font-size: 160%;
+    margin-left: -1%;
+    margin-top: -.3%;
+}
+
+.logo3{
+    font-size: 180%;
+    margin-left: -1%;
+    margin-top: -.4%;
+}
+
+
+.cabeceraacercate{
+    margin-top: .5%;
+    margin-left: 4%;
+    margin-right: 3%;
+}
+
+.txttel1{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.txttel2{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.txtcorreo{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.user{
+    font-size: 150%;
+    margin-left: -1%;
+}
+
+.monedero{
+    font-size: 160%;
+    margin-left: 2%;
+    margin-top: -.3%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-family: 'Reggae One', cursive;
+    text-align: center;
+    margin: 20px 0 15px 0;
+    font-weight: 300;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+.inicio{
+    text-align: justify;
+    color: black;
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.tecnicas{
+    font-family: 'Reggae One', cursive;
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.texto{
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+
+.historia{
+    font-family: 'Reggae One', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.mexico{
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+.palacioybellasartes{
+    display: flex;
+}
+
+
+.palacio{
+    height: 500px;
+    width: 600px;
+    margin-left: 5%;
+    border-radius: 10%;
+}
+
+.bellas{
+    height: 500px;
+    width: 600px;
+    margin-left: 10%;
+    border-radius: 10%;
+}
+
+
+
+.lugares{
+    display: flex;
+}
+
+.vitralpalacio{
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 17%;
+}
+
+.bellasartes{
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 32%;
+}
+
+
+
+
+
+.loretoychapultepec{
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+.santuarioychapultepec{
+    display: flex;
+}
+
+.santuario{
+    height: 500px;
+    width: 600px;
+    margin-left: 5%;
+    border-radius: 10%;
+}
+
+.castillo{
+    height: 500px;
+    width: 600px;
+    margin-left: 10%;
+    border-radius: 10%;
+}
+
+
+
+.loretoycastillo{
+    display: flex;
+}
+
+.loreto{
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+}
+
+.castillochapu{
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 26%;
+}
+
+
+
+
+
+.textofinal{
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+
+
+
+.lujo{
+    font-family: 'Reggae One', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}

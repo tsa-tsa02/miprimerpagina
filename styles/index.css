@@ -1,0 +1,673 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Reggae+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.header{
+    display: flex;
+}
+
+.imagenesacercate{
+    background-color: rgb(165, 160, 160);
+    border: 6px solid grey;
+    font-family: 'Reggae One', cursive;
+    font-size: 22px;
+    font-weight: bold;
+    padding: .5%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.Acercate{
+    display: flex;
+}
+
+.logo1{
+    font-size: 160%;
+    margin-left: -2%;
+    margin-top: -.3%;
+}
+
+.logo2{
+    font-size: 160%;
+    margin-left: -1%;
+    margin-top: -.3%;
+}
+
+.logo3{
+    font-size: 180%;
+    margin-left: -1%;
+    margin-top: -.4%;
+}
+
+
+.cabeceraacercate{
+    margin-top: .5%;
+    margin-left: 4%;
+    margin-right: 3%;
+}
+
+.txttel1{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.txttel2{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.txtcorreo{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.user{
+    font-size: 150%;
+    margin-left: -1%;
+}
+
+.monedero{
+    font-size: 160%;
+    margin-left: 2%;
+    margin-top: -.3%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+span{
+    display: flex;
+}
+
+.quintosol{
+    display: flex;
+}
+
+
+.imagenlogo{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 8%;
+}
+
+
+
+
+a{ 
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.navegacion{
+    width: 80%;
+    height: 10%;
+    background: rgb(81, 192, 81) ;
+    border: 6px solid rgb(8, 138, 8);
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    margin-left: 4.5%;
+    margin-bottom: 1%;
+}
+
+.menu{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 90px;
+}
+
+.menu li{
+    flex-basis: 0;
+    flex-grow: 1;
+    border-right: 1px solid  rgb(81, 192, 81);
+    position: relative;
+}
+
+.menu .primer-item{
+    border-left: 1px solid  rgb(81, 192, 81) ;
+}
+
+.menu li a{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+.menu .imagen{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    width: 0%;
+    z-index: 20;
+
+
+    transition: all 300ms cubic-bezier(0.445, 0.050, 0.550, 0.950); /* easeInOutSine */
+
+    transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950); /* easeInOutSine */
+}
+
+.menu li a .tex-barra{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-family: 'Reggae One', cursive;
+    font-weight: bold;
+    top: 0%;
+    position: absolute;
+    z-index: 10;
+
+    transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275); /* easeOutBack */
+
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.275); /* easeOutBack */
+}
+
+.menu li a .abajo-barra{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgb(81, 192, 81);
+
+    transition: all 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000); /* easeOutCubic */
+
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000); /* easeOutCubic */    
+}
+
+.menu li:hover .abajo-barra, .menu li:hover .tex-barra{
+    top: 100%;
+    height: 115%;
+}
+
+.menu li:hover .imagen{
+    width: 100%;
+    right: 0px;
+
+}
+
+
+
+
+.imagenprincipal{
+    overflow: auto;
+}
+
+.imagenmascara{
+    background-color: rgb(255, 228, 181);
+    border-top: 6px solid pink;
+    border-left: 6px solid pink;
+    border-right: 6px solid pink;
+    height:800px;
+    width: 740px;
+    padding: 2%;
+    box-sizing: border-box;
+    margin-right: 10%;
+    float: right;
+}
+
+.titulovitrales{
+    height: 80px;
+    width: 740px;
+    text-align: center;
+    color: rgb(65, 60, 60);
+    font-family: 'Reggae One', cursive;
+    font-size: 35px;
+    background-color: rgb(255, 228, 181);
+    border-right: 6px solid pink;
+    border-left: 6px solid pink;
+    padding: 1%;
+    box-sizing: border-box;
+    margin-right: 10%;
+    float: right;
+}
+
+.vitrales{
+    height: 230px;
+    width: 740px;
+    text-align: center;
+    color:black;
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 228, 181);
+    border-right: 6px solid pink;
+    border-left: 6px solid pink;
+    padding: 1%;
+    box-sizing: border-box;
+    margin-right: 10%;
+    float: right;
+}
+
+.solicitavitrales{
+    height: 60px;
+    width: 740px;
+    text-align: center;
+    color: black;
+    font-family: 'Reggae One', cursive;
+    font-size:22px;
+    font-weight: bold;
+    background-color: rgb(0, 255, 255);
+    border: 6px solid rgb(72, 209, 204);
+    padding: 1%;
+    box-sizing: border-box;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    float: right;
+}
+
+
+
+
+
+.formulario{
+    display: flex;
+    float: left;
+}
+
+
+form{
+    flex-direction: column;
+    width: 20%;
+    font-family: 'Reggae One', cursive;
+    font-size: 23px;
+    border: 2px solid grey;
+    margin-top: 80px;
+    margin-left: 20px;
+    padding: 1%;
+}
+
+input{
+    padding: 5%;
+    margin: 3%;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.aviso{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+.leer{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+.boton{
+    margin-top: -15%;
+    width: 30px;
+    height: 30px;
+}
+
+.enviar{
+    margin-top: 15%;
+    margin-bottom: 10%;
+    background-color:  rgb(180, 176, 176);
+    border: 6px solid rgb(124, 121, 121);
+    font-family: 'Reggae One', cursive;
+    font-size: 25px;
+    padding: 2%;
+    border-radius: 10px;
+    transition: all ease 300ms;
+}
+
+.enviar:hover{
+    background-color:  rgb(0, 255, 255);
+    border: 6px solid rgb(72, 209, 204)
+}
+
+label{
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+.caja{
+    border-radius: 10px;
+}
+
+.mensaje{
+    text-align: center;
+    background-color: rgb(0, 255, 255);
+    border-radius: 10px;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+
+main{
+    display: flex;
+}
+
+
+.imagenvitro{
+    background-color: rgb(255, 228, 181);
+    border-top: 6px solid pink;
+    border-left: 6px solid pink;
+    border-right: 6px solid pink;
+    height:450px;
+    width: 520px;
+    padding: 3%;
+    box-sizing: border-box;
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-top: 2%;
+    float: left;
+}
+
+.titulovitro{
+    height: 80px;
+    width: 520px;
+    text-align: center;
+    color: rgb(65, 60, 60);
+    font-family: 'Reggae One', cursive;
+    font-size: 35px;
+    background-color: rgb(255, 228, 181);
+    border-right: 6px solid pink;
+    border-left: 6px solid pink;
+    padding: 1%;
+    box-sizing: border-box;
+    margin-left: 3%;
+    margin-right: 2%;
+    float: left;
+}
+
+.vitromosaico{
+    height: 170px;
+    width: 520px;
+    text-align: center;
+    color:black;
+    font-family: 'Reggae One',cursive;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 228, 181);
+    border-right: 6px solid pink;
+    border-left: 6px solid pink;
+    padding: 1%;
+    box-sizing: border-box;
+    margin-left:3%;
+    margin-right: 2%;
+    float: left;
+}
+
+.mostrarvitro{
+    height: 28px;
+    width: 496px;
+    text-align: center;
+    color: black;
+    font-family: 'Reggae One', cursive;
+    font-size:22px;
+    font-weight: bold;
+    background-color: rgb(0, 255, 255);
+    border: 6px solid rgb(72, 209, 204);
+    padding: 1%;
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+    float: left;
+}
+
+
+
+
+
+.imagenfusion{
+    background-color: rgb(255, 228, 181);
+    border-top: 6px solid pink;
+    border-left: 6px solid pink;
+    border-right: 6px solid pink;
+    height:448px;
+    width: 450px;
+    padding: 5%;
+    box-sizing: border-box;
+    margin-right: 5%;
+    margin-top: 2%;
+    float: right;
+}
+
+.titulofusion{
+    height: 70px;
+    width: 450px;
+    text-align: center;
+    color: rgb(65, 60, 60);
+    font-family: 'Reggae One', cursive;
+    font-size: 35px;
+    background-color: rgb(255, 228, 181);
+    border-right: 6px solid pink;
+    border-left: 6px solid pink;
+    padding: 1%;
+    box-sizing: border-box;
+    margin-right: 5%;
+    float: right;
+}
+
+.fusion{
+    height: 182px;
+    width: 450px;
+    text-align: center;
+    color:black;
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 228, 181);
+    border-right: 6px solid pink;
+    border-left: 6px solid pink;
+    padding: 1%;
+    box-sizing: border-box;
+    margin-right: 5%;
+    float: right;
+}
+
+.mostrarfusion{
+    height: 30px;
+    width: 428px;
+    text-align: center;
+    color: black;
+    font-family: 'Reggae One', cursive;
+    font-size:22px;
+    font-weight: bold;
+    background-color: rgb(0, 255, 255);
+    border: 6px solid rgb(72, 209, 204);
+    padding: 1%;
+    margin-right: 5%;
+    float: right;
+}
+
+
+
+
+
+.imagentiffany{
+    background-color: rgb(255, 228, 181);
+    border-top: 6px solid pink;
+    border-left: 6px solid pink;
+    border-right: 6px solid pink;
+    height:450px;
+    width: 390px;
+    padding: 3%;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 3%;
+    margin-top: 2%;
+    float: right;
+}
+
+.titulotiffany{
+    height: 70px;
+    width: 390px;
+    text-align: center;
+    color: rgb(65, 60, 60);
+    font-family: 'Reggae One', cursive;
+    font-size: 35px;
+    background-color: rgb(255, 228, 181);
+    border-right: 6px solid pink;
+    border-left: 6px solid pink;
+    padding: 1%;
+    box-sizing: border-box;
+    margin-left: 3%;
+    margin-right: 3%;
+    float: right;
+}
+
+.tiffany{
+    height: 180px;
+    width: 390px;
+    text-align: center;
+    color:black;
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 228, 181);
+    border-right: 6px solid pink;
+    border-left: 6px solid pink;
+    padding: 1%;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 3%;
+    float: right;
+}
+
+.mostrartiffany{
+    height: 30px;
+    width: 370px;
+    text-align: center;
+    color: black;
+    font-family: 'Reggae One', cursive;
+    font-size:22px;
+    font-weight: bold;
+    background-color: rgb(0, 255, 255);
+    border: 6px solid rgb(72, 209, 204);
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 3%;
+    float: right;
+}
+
+
+
+
+
+.final{
+    display: flex;
+}
+
+.ubicacion{
+    width: 700px;
+    height: 500px;
+    border-radius: 10%;
+    margin-left: 13%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.logos{
+    display: flex;
+}
+
+
+.timg{
+    width: 90px;
+    height: 90px;
+    margin-top: 4%;
+    margin-left: 40%;
+}
+
+.wimg{
+    width: 90px;
+    height: 90px;
+    margin-top: 38%;
+    margin-left: -24%;
+}
+
+.cimg{
+    width: 87px;
+    height: 87px;
+    margin-top: 72%;
+    margin-left: -24%;
+}
+
+.himg{
+    width: 100px;
+    height: 100px;
+    margin-top: 109%;
+    margin-left: -26%;
+}
+
+.datostel{
+    color: black;
+    font-family: 'Reggae One', cursive;
+    font-size:18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: -5%;
+}
+
+
+.mapaubicacion{
+    color: black;
+    font-family: 'Reggae One', cursive;
+    font-size:20px;
+    font-weight: bold;
+    margin-left: 8%;
+    margin-bottom: 1%;
+}
+
+
+.presupuesto{
+    color: black;
+    font-family: 'Reggae One', cursive;
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    width: 280px;
+    height: 50px;
+    background-color: rgb(180, 176, 176);
+    border: 6px solid rgb(124, 121, 121);
+    border-radius: 5%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 40%;
+    padding: 1%;
+    transition: all ease 300ms;
+}
+
+.presupuesto:hover{
+    background-color: rgb(0, 255, 255);
+    border: 6px solid rgb(72, 209, 204)
+}
+

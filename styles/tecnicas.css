@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Reggae+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.header{
+    display: flex;
+}
+
+.imagenesacercate{
+    background-color: rgb(165, 160, 160);
+    border: 6px solid grey;
+    font-family: 'Reggae One', cursive;
+    font-size: 22px;
+    font-weight: bold;
+    padding: .5%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.Acercate{
+    display: flex;
+}
+
+.logo1{
+    font-size: 160%;
+    margin-left: -2%;
+    margin-top: -.3%;
+    
+}
+
+.logo2{
+    font-size: 160%;
+    margin-left: -1%;
+    margin-top: -.3%;
+}
+
+.logo3{
+    font-size: 180%;
+    margin-left: -1%;
+    margin-top: -.4%;
+}
+
+
+.cabeceraacercate{
+    margin-top: .5%;
+    margin-left: 4%;
+    margin-right: 3%;
+}
+
+.txttel1{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.txttel2{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.txtcorreo{
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.user{
+    font-size: 150%;
+    margin-left: -1%;
+}
+
+.monedero{
+    font-size: 160%;
+    margin-left: 2%;
+    margin-top: -.3%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+.iniciovitromosaico{
+    display: flex;
+}
+
+#titulovitro{
+    color: black;
+    font-family: 'Reggae One', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 35%;
+}
+
+.txtvitro{
+    text-align: justify;
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 3%;
+    margin-right: 8%;
+    margin-top: 3%;
+}
+
+.imgvitro{
+    width: 500px;
+    height: 500px;
+    margin-top: 27%;
+    margin-left: -5%;
+    margin-right: 5%;
+    border-radius: 5%;
+}
+
+.autorvitroabm{
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 40%;
+    margin-bottom: 10%;
+}
+
+
+
+
+
+.inicisofusion{
+    display: flex;
+}
+
+
+#titulofusion{
+    color: black;
+    font-family: 'Reggae One', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 200%;
+}
+
+.fusionimg{
+    width: 500px;
+    height: 500px;
+    margin-left: 6%;
+    margin-top: 16%;
+    border-radius: 5%;
+}
+
+.autorfusionabm{
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 2%;
+    margin-left: 45%;
+}
+
+
+.textofusion{
+    text-align: justify;
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 8%;
+    margin-right: 3%;
+    margin-top: 10%;
+}
+
+
+
+
+
+.iniciotiffany{
+    display: flex;
+}
+
+
+#titulotiffany{
+    color: black;
+    font-family: 'Reggae One', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 40%;
+}
+
+.textotiff{
+    text-align: justify;
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 3%;
+    margin-right: 8%;
+    margin-top: 3%;
+}
+
+.tiffimg{
+    width: 500px;
+    height: 500px;
+    margin-top: 24%;
+    margin-left: -5%;
+    margin-right: 5%;
+    border-radius: 5%;
+}
+
+.autortiffabm{
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 10%;
+    margin-left: 38%;
+}
+
+
+
+
+
+.iniciolaton{
+    display: flex;
+}
+
+
+.titulol{
+    color: black;
+    font-family: 'Reggae One', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 175%;
+}
+
+.latonimg{
+    width: 500px;
+    height: 600px;
+    margin-top: 2%;
+    margin-left: 3%;
+    border-radius: 5%;
+}
+
+.autorlatonabm{
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 2%;
+    margin-left: 40%;
+}
+
+.textolaton{
+    text-align: justify;
+    font-family: 'Reggae One', cursive;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-left: 8%;
+    margin-right: 3%;
+    margin-top: 15%;
+}
+
+
+
+
+
+.iniciozinc{
+    display: flex;
+}
+
+
+.titulozinc{
+    color: black;
+    font-family: 'Reggae One', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 33%;
+}
+
+
+.txtzinc{
+    text-align: justify;
+    font-family: 'Reggae One', cursive;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-left: 3%;
+    margin-right: 8%;
+    margin-top: 8%;
+}
+
+.zincimg{
+    width: 500px;
+    height: 500px;
+    margin-top: 20%;
+    margin-right: 5%;
+    margin-left: -5%;
+    border-radius: 5%;
+}
+
+.autorzincabm{
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 10%;
+    margin-left: 38%;
+}
+
+.inicioplomo{
+    display: flex;
+}
+
+.tituloplomo{
+    color: black;
+    font-family: 'Reggae One', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 178%;
+}
+
+.plomoimg{
+    width: 500px;
+    height: 600px;
+    margin-top: 2%;
+    margin-left: 3%;
+    border-radius: 5%;
+}
+
+.autorplomo{
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 2%;
+    margin-left: 40%;
+    margin-bottom: 10%;
+}
+
+.textoplomo{
+    text-align: justify;
+    font-family: 'Reggae One', cursive;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-left: 8%;
+    margin-right: 3%;
+    margin-top: 15%;
+}
